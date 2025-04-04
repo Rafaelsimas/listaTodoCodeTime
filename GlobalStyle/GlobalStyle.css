@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+.container p {
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 5px;
+}
+
+form button {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0.8rem;
+}
+
+ul {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 30px;
+
+  height: 310px;
+  overflow: auto;
+}
+
+ul li {
+  margin-bottom: 15px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+}
+
+ul li h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+ul .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul .actions .delet {
+  background-color: red;
+  padding: 0.2rem;
+  color: white;
+}
+ul .actions .edit {
+  padding: 0.2rem;
+  background-color: brown;
+  color: white;
+}
