@@ -5,7 +5,7 @@ export default function Login() {
     <div className="container-login">
       <div className="box-login">
         <div className="title-section">ToDo-List</div>
-        <input type="text" placeholder="Entre com o seu nome" />
+
         <Link to="/gerenciador" className="btn-enter">
           Entrar
         </Link>
