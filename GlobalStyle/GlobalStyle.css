@@ -7,6 +7,41 @@
   font-family: sans-serif;
 }
 
+.container-login {
+  background-color: cyan;
+  height: 100vh;
+}
+
+.container-login .box-login {
+  width: 80%;
+  margin-inline: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.box-login .title-section {
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 15px;
+}
+
+.container-login .box-login input,
+.btn-enter {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.container-login .box-login .btn-enter {
+  background-color: rgb(240, 240, 29);
+  color: black;
+  text-align: center;
+}
 .container h1 {
   text-align: center;
   margin-top: 60px;
