@@ -18,6 +18,7 @@ export default function App() {
     setTarefas([...tarefas, newTarefas]);
     setTitle("");
     setDescripion("");
+    setConter(conter + 1)
   };
 
  /*  ul.addEventListener("click", (event) => {
@@ -42,7 +43,7 @@ export default function App() {
     <>
       <div className="container">
         <h1>Gerenciador de Tarefas</h1>
-        <p className="qtd-tarefas">Você tem (0) tarefas</p>
+        <p className="qtd-tarefas">Você tem ({co}) tarefas</p>
 
         <form onSubmit={actionSubmit} action="#">
           <input
