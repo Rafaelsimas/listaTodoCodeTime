@@ -43,7 +43,7 @@ export default function App() {
     <>
       <div className="container">
         <h1>Gerenciador de Tarefas</h1>
-        <p className="qtd-tarefas">Você tem ({co}) tarefas</p>
+        <p className="qtd-tarefas">Você tem ({conter}) tarefas</p>
 
         <form onSubmit={actionSubmit} action="#">
           <input
