@@ -21,23 +21,6 @@ export default function App() {
     setConter(conter + 1)
   };
 
- /*  ul.addEventListener("click", (event) => {
-    if (event.target.tagName === "BUTTON") {
-      const button = event.target;
-      const div = button.parentNode;
-      const li = div.parentNode;
-      const ul = li.parentNode;
-      if (button.textContent === "edit") {
-        const span = li.firstElementChild;
-        const input = document.createElement("input");
-        input.type = "text";
-        input.value = span.textContent;
-        li.insertBefore(input, span);
-        li.removeChild(span);
-        button.textContent = "save";
-      }
-    }
-  }); */
 
   return (
     <>
